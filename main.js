@@ -30,3 +30,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cargar la preferencia del usuario al cargar la página
     loadThemePreference();
 });
+

@@ -14,7 +14,6 @@ body {
     padding-left: 0px !important;
     padding-right: 40px !important; /* Eliminar padding izquierdo */
     color: aliceblue !important;
-    font-weight: bold; /* Negrita */
 
 }
 header{
@@ -26,7 +25,7 @@ header{
 }
 /* Estilos para tema oscuro */
 body.dark-mode {
-    background-color: #333333;
+    background-color: #2E303E;
     color: #cccccc;
 }
 
@@ -95,4 +94,23 @@ input:checked + .slider:before {
     font-size: 12px;
     text-align: center;
     margin-top: 3px;
+}
+
+
+.container {
+    padding-left: 0px !important;
+}
+.switch{
+    margin-right: 4px !important;
+}
+
+button.navbar-toggler{
+margin-left: 5px;
+}
+
+
+@media screen and (max-width: 200em) {
+    .switch{
+        margin-right: 6px !important;
+    }
 }
