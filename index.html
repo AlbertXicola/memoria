@@ -8,14 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
     <link rel="stylesheet" href="style.css">
     <script defer src="main.js"></script>
-
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
-    <header class="bg-gradient text-white p-3">
+    <header class="bg-gradient text-white p-3 pt-4">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
                 <img src="logo.png" alt="Logo" class="logo mr-3">
@@ -25,8 +28,6 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
             </form>
         </div>
-        
-        
         <!-- Secciones de Navegación -->
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent mt-3">
             <div class="container">
@@ -67,46 +68,94 @@
         </nav>
     </header>
 
-
-
-
-
-
-
     <!-- Cuerpo  -->
     <main class="container mt-5">
         <div class="row">
             <!-- Índice -->
-            <nav class="col-md-3 mb-4">
-                <h2>Home</h2>
-                <ul class="list-unstyled">
+            <nav class="col-md-3 mb-4 vertical-line">
+                <h3 style="color: rgb(59, 106, 194);">Menu</h3>
+                <br>
+                <ul class="list-unstyled red-link ">
                     <li><a href="#introduccion">Introducción</a></li>
                     <li><a href="#objetivos">Objetivos</a></li>
                     <li><a href="#desarrollo">Desarrollo</a></li>
                     <li><a href="#conclusiones">Conclusiones</a></li>
                 </ul>
             </nav>
-            
+
             <!-- Contenido -->
             <div class="col-md-9">
                 <section id="introduccion">
+                    <br>
+                    <br>
                     <h1>Introducción</h1>
-                    <p>Aquí puedes escribir tu introducción.</p>
+                    <br>
+                    <h5>Esta es la memoria y documentacion de el proyecto web APB2TAL, es un servicio web que ofrece una amplia gestión de y para archivos entre otros servicios. A nivel empresarial y tambien para el uso personal y/o grupos.</h5>
+                    <br>
                 </section>
                 
+
+
+
+
                 <section id="objetivos">
                     <h2>Objetivos</h2>
-                    <p>Describe los objetivos de tu proyecto.</p>
+                    <br>
+                    <ul class="red-link">
+                        <li><a href="#">Autenticación d'usuaris.</a></li>
+                        <li><a href="#">Creació d'usuaris.</a></li>
+                        <li><a href="#">Pujar fitxers i carpetes.</a></li>
+                        <li><a href="#">Verificar amb Virus Total els fitxers.</a></li>
+                        <li><a href="#">Mostrar els resultats.</a></li>
+                        <li><a href="#">Compartir els fitxers amb usuaris o departaments.</a></li>
+                        <li><a href="#">Registre de fitxers pujats per l'usuari i eliminats per contenir programari maliciós.</a></li>
+                        <li><a href="#">Descarregar de fitxers.</a></li>
+                        <li><a href="#">Panell administratiu on validar un usuari i assignar-lo a un departament.</a></li>
+                        <li><a href="#">Registre de tots els fitxers pujats i eliminats pels usuaris.</a></li>
+                        <li><a href="#">Aplicar un xifratge de fitxers mentre el fitxer ha sigut verificat però no descarregat.</a></li>
+                        <li><a href="#">Aplicar seguretat a la xarxa, configurant un tallafoc com pfSense per davant del servidor.</a></li>
+                        <li><a href="#">Auditar la web de vulnerabilitats web.</a></li>
+                        <li><a href="#">Pensar i aplicar un parell de millores a aplicar al producte.</a></li>
+                    </ul>
+                    <br>
                 </section>
                 
                 <section id="desarrollo">
                     <h2>Servicios</h2>
-                    <p>Detalla el desarrollo de tu proyecto.</p>
+                    <br>
+                    <h5>- APB2TAL es un proyecto con el nucleo principal que es el de analizar archivos.</h6>
+                    <h5>- Esta envuelto en una gran interfaz para y con la mayor flexibilidad, seguridad y comodidad para el usuario .</h6>
+                    <br>
+                        <ul class="red-link">
+                            <li><a href="#">Api Virus Total.</a></li>
+                            <li><a href="#">Analisis de Archivos.</a></li>
+                            <li><a href="#">Seguridad y Estructura.</a></li>
+                            <li><a href="#">Soporte, contacto y mensajeria.</a></li>
+                            <li><a href="#">Personalización de Usuario.</a></li>
+
+                        </ul>
+                    <br>
                 </section>
                 
                 <section id="conclusiones">
                     <h2>Desarrollo</h2>
-                    <p>Presenta las conclusiones obtenidas.</p>
+                    <br>
+                    <h5>El proyecto se ha estado desarrlloando desde principios de Octubre de 2023 hasta finales de Mayo de 2024. Y se divide el procese en 3 fases donde existen las propias etapas del Proyecto..</h5>
+                    <br>
+                    <ul class="red-link">
+                        <li><a href="#">Fase 0 - Primera Etapa</a></li>
+                        <li><a href="#">Fase 0 - Segunda Etapa</a></li>
+                        <li><a href="#">Fase 1 - Tercera Etapa</a></li>
+                        <li><a href="#">Fase 2 - Cuarta Etapa</a></li>
+                        <li><a href="#">Fase 2 - Última Etapa</a></li>
+
+
+
+                    </ul>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                 </section>
             </div>
         </div>
@@ -117,13 +166,12 @@
 
 
 
+    <footer class="footer  text-white py-3" style="background-color: rgb(22, 22, 22); height: 65px;">
+        <div class="container d-flex justify-content-between align-items-center mt-3">
+            <div class="text-left">
+                <a href="index.html" class="text-white ">
 
-
-    <footer class="footer bg-dark text-white py-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="text-right">
-                <a href="#" class="text-white">
-                    <span class="h4 font-weight-bold"></span>
+                    <span class="h4 font-weight-bold mt-3"></span>
                 </a>
             </div>
             <div class="text-right">
@@ -134,7 +182,7 @@
             </div>
         </div>
     </footer>
-
+    
     <!-- Footer -->
     <footer class="footer bg-dark text-white py-3">
         <div class="container text-center">
@@ -142,10 +190,11 @@
         </div>
     </footer>
 
-
+    <!-- Scripts de Bootstrap y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+
 </body>
-</html>    
+</html>

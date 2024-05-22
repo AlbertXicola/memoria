@@ -26,8 +26,9 @@ header{
 /* Estilos para tema oscuro */
 body.dark-mode {
     background-color: #2E303E;
-    color: #cccccc;
+    color: #ececec;
 }
+
 
 
 .dark-mode .footer {
@@ -113,4 +114,80 @@ margin-left: 5px;
     .switch{
         margin-right: 6px !important;
     }
+}
+
+.red-link a {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+
+}
+.red-link a:hover {
+    color: rgb(50, 83, 228);
+    text-decoration: none;
+}
+
+
+
+
+.dark-mode .vertical-line .red-link a {
+    color: #ececec !important;
+}
+
+.dark-mode .vertical-line .red-link a:hover {
+    color: rgb(50, 83, 228) !important;
+}
+
+
+.red-link li {
+
+    margin-bottom: 11px;
+}
+
+
+.dark-mode .red-link li a{
+
+    color: #ececec !important;
+
+}
+.dark-mode .red-link li a:hover{
+
+    color: rgb(50, 83, 228) !important;
+
+}
+
+
+
+.vertical-line {
+    position: relative;
+    padding-left: 15px;
+}
+
+.vertical-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 3px;
+    background-color: rgb(59, 106, 194);
+}
+
+#Albert_Xicola i {
+    color: rgb(26, 26, 26);
+}
+#Pau_Cañadillas i {
+    color: rgb(26, 26, 26);
+}
+#Max_Thomas i {
+    color: rgb(26, 26, 26);
+}
+
+.dark-mode #Albert_Xicola i {
+    color: #ffffff;
+}
+.dark-mode #Pau_Cañadillas i {
+    color: #ffffff;
+}
+.dark-mode #Max_Thomas i {
+    color: #ffffff;
 }
