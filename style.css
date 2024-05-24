@@ -102,10 +102,23 @@ input:checked + .slider:before {
     padding-left: 0px !important;
 }
 
-
-button.navbar-toggler{
-margin-left: 5px;
+@media (max-width: 600px) {
+    .navbar {
+        padding-left: 0px !important;
+    }
 }
+@media (max-width: 874px) {
+    .switch {
+        margin-right: 15px !important;
+    }
+}
+
+@media (max-width: 510px) {
+    .switch {
+        margin-right:2px !important;
+    }
+}
+
 
 
 mark.highlight {
