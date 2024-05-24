@@ -29,8 +29,15 @@
                 <img src="logo.png" alt="Logo" class="logo mr-3">
                 <h1 class="h4 mb-0">APB2TAL Memoria</h1>
             </div>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <form class="form-inline" onsubmit="return false;">
+                <div class="input-group">
+                    <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-success" type="button" id="searchButton">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
             </form>
         </div>
         
@@ -61,7 +68,7 @@
                             <a class="nav-link" href="webgrafia.html">Webgrafia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="django.html">Django</a>
+                            <a class="nav-link" href="produccion.html">Producción</a>
                         </li>
                     </ul>
                 </div>
@@ -84,7 +91,7 @@
     
     <!-- Cuerpo  -->
     <main class="container mt-5">
-        <div class="row ml-2">
+        <div class="row ml-2 mr-1">
             <!-- Índice -->
             <nav class="col-md-3 mb-4 vertical-line">
                 <h3 style="color: rgb(59, 106, 194);">Equipo</h3>
@@ -163,13 +170,13 @@
 
 
 
-    <footer class="footer  text-white py-3" style="background-color: rgb(22, 22, 22); height: 65px;">
+    <footer class="footer  text-white py-3" style="background-color: #47515f; height: 75px;">
         <div class="container d-flex justify-content-between align-items-center mt-3">
             <div class="text-left">
                 <a href="index.html" class="text-white ">
-                    <i class="fas fa-arrow-left ml-1"></i> <!-- Icono de flecha izquierda -->
+                    <i class="fas fa-arrow-left ml-4"></i> <!-- Icono de flecha izquierda -->
 
-                    <span class="h4 font-weight-bold mt-3">Home</span>
+                    <span class="h4 font-weight-bold mt-3"> Home</span>
                 </a>
             </div>
             <div class="text-right">

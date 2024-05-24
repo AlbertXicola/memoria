@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif; /* Fuente para enlaces de navegación */
 }
 .bg-gradient {
-    background: linear-gradient(to right, #2487c0, #6e28a7); /* Degradado de dos colores */
+    background: linear-gradient(to right, #2487c0, rgb(168, 33, 209)); /* Degradado de dos colores */
 }
 .logo {
     height: 50px;
@@ -101,19 +101,16 @@ input:checked + .slider:before {
 .container {
     padding-left: 0px !important;
 }
-.switch{
-    margin-right: 4px !important;
-}
+
 
 button.navbar-toggler{
 margin-left: 5px;
 }
 
 
-@media screen and (max-width: 200em) {
-    .switch{
-        margin-right: 6px !important;
-    }
+mark.highlight {
+    background-color: rgba(83, 221, 20, 0.705); /* Fondo amarillo para resaltar */
+    color: rgb(0, 0, 0); /* Texto en rojo */
 }
 
 .red-link a {

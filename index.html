@@ -23,8 +23,15 @@
                 <img src="logo.png" alt="Logo" class="logo mr-3">
                 <h1 class="h4 mb-0">APB2TAL Memoria</h1>
             </div>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <form class="form-inline" onsubmit="return false;">
+                <div class="input-group">
+                    <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-success" type="button" id="searchButton">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
             </form>
         </div>
         <!-- Secciones de Navegación -->
@@ -54,7 +61,7 @@
                             <a class="nav-link" href="webgrafia.html">Webgrafia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="django.html">Django</a>
+                            <a class="nav-link" href="produccion.html">Producción</a>
                         </li>
                     </ul>
                 </div>
@@ -69,7 +76,7 @@
 
     <!-- Cuerpo  -->
     <main class="container mt-5">
-        <div class="row ml-2">
+        <div class="row ml-2 mr-1">
             <!-- Índice -->
             <nav class="col-md-3 mb-4 vertical-line">
                 <h3 style="color: rgb(59, 106, 194);">Menu</h3>
@@ -89,7 +96,7 @@
                     <br>
                     <h1>Introducción</h1>
                     <br>
-                    <h5>Esta es la memoria y documentacion de el proyecto web APB2TAL, es un servicio web que ofrece una amplia gestión de y para archivos entre otros servicios. A nivel empresarial y tambien para el uso personal y/o grupos.</h5>
+                    <h5 style="text-align: justify;">Esta es la memoria y documentacion de el proyecto web APB2TAL, es un servicio web que ofrece una amplia gestión de y para archivos entre otros servicios. A nivel empresarial y tambien para el uso personal y/o grupos.</h5>
                     <br>
                 </section>
                 
@@ -101,20 +108,20 @@
                     <h2>Objetivos</h2>
                     <br>
                     <ul class="red-link">
-                        <li><a href="#">Autenticación d'usuaris.</a></li>
-                        <li><a href="#">Creació d'usuaris.</a></li>
-                        <li><a href="#">Pujar fitxers i carpetes.</a></li>
-                        <li><a href="#">Verificar amb Virus Total els fitxers.</a></li>
-                        <li><a href="#">Mostrar els resultats.</a></li>
-                        <li><a href="#">Compartir els fitxers amb usuaris o departaments.</a></li>
-                        <li><a href="#">Registre de fitxers pujats per l'usuari i eliminats per contenir programari maliciós.</a></li>
-                        <li><a href="#">Descarregar de fitxers.</a></li>
-                        <li><a href="#">Panell administratiu on validar un usuari i assignar-lo a un departament.</a></li>
-                        <li><a href="#">Registre de tots els fitxers pujats i eliminats pels usuaris.</a></li>
-                        <li><a href="#">Aplicar un xifratge de fitxers mentre el fitxer ha sigut verificat però no descarregat.</a></li>
-                        <li><a href="#">Aplicar seguretat a la xarxa, configurant un tallafoc com pfSense per davant del servidor.</a></li>
-                        <li><a href="#">Auditar la web de vulnerabilitats web.</a></li>
-                        <li><a href="#">Pensar i aplicar un parell de millores a aplicar al producte.</a></li>
+                        <li><a href="#">Autenticación de usuarios.</a></li>
+                        <li><a href="#">Creación de usuarios.</a></li>
+                        <li><a href="#">Subir archivos y carpetas.</a></li>
+                        <li><a href="#">Verificar archivos con Virus Total.</a></li>
+                        <li><a href="#">Mostrar los resultados.</a></li>
+                        <li><a href="#">Compartir archivos con usuarios o departamentos.</a></li>
+                        <li><a href="#">Registro de archivos subidos por el usuario y eliminados por contener software malicioso.</a></li>
+                        <li><a href="#">Descargar archivos.</a></li>
+                        <li><a href="#">Panel administrativo para validar un usuario y asignarlo a un departamento.</a></li>
+                        <li><a href="#">Registro de todos los archivos subidos y eliminados por los usuarios.</a></li>
+                        <li><a href="#">Aplicar un cifrado a los archivos mientras el archivo ha sido verificado pero no descargado.</a></li>
+                        <li><a href="#">Aplicar seguridad a la red, configurando un firewall como pfSense delante del servidor.</a></li>
+                        <li><a href="#">Auditar la web en busca de vulnerabilidades.</a></li>
+                        <li><a href="#">Pensar y aplicar un par de mejoras al producto.</a></li>
                     </ul>
                     <br>
                 </section>
@@ -122,8 +129,9 @@
                 <section id="desarrollo">
                     <h2>Servicios</h2>
                     <br>
-                    <h5>- APB2TAL es un proyecto con el nucleo principal que es el de analizar archivos.</h6>
-                    <h5>- Esta envuelto en una gran interfaz para y con la mayor flexibilidad, seguridad y comodidad para el usuario .</h6>
+                    <h5 style="text-align: justify;">APB2TAL es un proyecto con el nucleo principal que es el de analizar archivos.</h6>
+                        <br>
+                    <h5 style="text-align: justify;">Esta envuelto en una gran interfaz para y con la mayor flexibilidad, seguridad y comodidad para el usuario .</h6>
                     <br>
                         <ul class="red-link">
                             <li><a href="#">Api Virus Total.</a></li>
@@ -139,7 +147,7 @@
                 <section id="conclusiones">
                     <h2>Desarrollo</h2>
                     <br>
-                    <h5>El proyecto se ha estado desarrlloando desde principios de Octubre de 2023 hasta finales de Mayo de 2024. Y se divide el procese en 3 fases donde existen las propias etapas del Proyecto..</h5>
+                    <h5 style="text-align: justify;">El proyecto se ha estado desarrlloando desde principios de Octubre de 2023 hasta finales de Mayo de 2024. Y se divide el procese en 3 fases donde existen las propias etapas del Proyecto..</h5>
                     <br>
                     <ul class="red-link">
                         <li><a href="#">Fase 0 - Primera Etapa</a></li>
@@ -165,7 +173,7 @@
 
 
 
-    <footer class="footer  text-white py-3" style="background-color: rgb(22, 22, 22); height: 65px;">
+    <footer class="footer  text-white py-3" style="background-color: #47515f; height: 75px;">
         <div class="container d-flex justify-content-between align-items-center mt-3">
             <div class="text-left">
                 <a href="index.html" class="text-white ">
