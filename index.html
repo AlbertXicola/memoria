@@ -7,13 +7,19 @@
     <!-- Enlace a Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <link rel="icon" type="image/x-icon" href="https://i.ibb.co/L9cjtSz/icono.png">
 
+    <!-- Enlace a Marked.js -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Estilos personalizados -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Script principal -->
     <script defer src="main.js"></script>
-    <style>
-    </style>
 </head>
 <body>
     <!-- Header -->
@@ -21,7 +27,8 @@
         <div class="container d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
                 <img src="logo.png" alt="Logo" class="logo mr-3">
-                <h1 class="h4 mb-0">APB2TAL Memoria</h1>
+                <h1 class="h4 mb-0">APB2TAL Memoria</h1>                            
+
             </div>
             <form class="form-inline" onsubmit="return false;">
                 <div class="input-group">
@@ -34,8 +41,9 @@
                 </div>
             </form>
         </div>
+        
         <!-- Secciones de Navegación -->
-        <nav class="navbar navbar-expand-lg navbar-light navbar-transparent mt-3 pl-4">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-transparent mt-3">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,10 +51,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <strong><a class="nav-link" href="index.html">Home</a></strong>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="equipo.html">Equipo</a>                        
+                            <a class="nav-link" href="equipo.html">Equipo</a>                     
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="memoria.html">Memoria</a>
@@ -63,8 +71,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="produccion.html">Producción</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="repos.html">Repositorios GitHub</a>
+                            <strong><a class="nav-link" href="repos.html">Repositorios GitHub</a></strong>  
                         </li>
                     </ul>
                 </div>
@@ -76,6 +85,7 @@
             </div>
         </nav>
     </header>
+
 
     <!-- Cuerpo  -->
     <main class="container mt-5">
