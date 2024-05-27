@@ -9,11 +9,13 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="https://i.ibb.co/L9cjtSz/icono.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <script defer src="main.js"></script>
-    <style>
-    </style>
+
+    
 </head>
 <body>
     <!-- Header -->
@@ -88,7 +90,6 @@
                     <li><a href="#Produccion">Producción</a></li>
                     <li><a href="#render">Render.com</a></li>
                     <li><a href="#Deploy">Deploy</a></li>
-                    <li><a href="#Postgress">Postgress</a></li>
                     <li><a href="#Estado">Estado</a></li>
 
                 </ul>
@@ -99,6 +100,7 @@
                     height: auto;
                 }
             </style>
+
             <!-- Contenido -->
             <div class="col-md-9">
                 <section id="Produccion">
@@ -106,8 +108,19 @@
                     <br>
                     <h1>Producción</h1>
                     <br>
-                    <h5 style="text-align: justify;">Textaco.</h5>
+                    <h5 style="text-align: justify;">
+                        El proyecto se lanzó en fase Beta en internet el 24 de mayo de 2024. Actualmente, sigue en fase beta. La decisión de lanzarlo se tomó con la intención de ofrecer un servicio más allá de un servidor local. Publicarlo en internet representó un desafío significativo; inicialmente, queríamos manejar el servidor en una máquina propia, pero la configuración de Django y los servidores web resultó ser compleja. Sin embargo, al descubrir render.com, todo se simplificó. A continuación, se detalla la estructura que tenemos para el proyecto en producción.</h5>
                     <br>
+                    <div class="alert alert-info" role="alert" style="text-align: justify;">
+                        <h5>
+                            
+                            <i class="bi bi-exclamation-circle-fill mr-2"></i> - Actualización 26-05-2024 -
+                            <br>
+                            <br>
+                            Ya se pueden Descargar archivos!
+                             <!-- Icono de exclamación -->
+                        </h5>
+                    </div>
                     <img src="Diagrama Producción.jpg" alt="Descripción de la imagen" class="small-image">
                     <br>
 
@@ -117,7 +130,7 @@
                     <br>
                     <h1>Render.com</h1>
                     <br>
-                    <h5 style="text-align: justify;">Textaco.</h5>
+                    <h5 style="text-align: justify;">Render.com es una plataforma de alojamiento en la nube que permite a desarrolladores y empresas desplegar y gestionar aplicaciones, sitios web, bases de datos, y otros servicios en la nube de manera sencilla. Render se enfoca en proporcionar una experiencia de despliegue y gestión de infraestructuras simplificada, similar a la de servicios como Heroku.</h5>
                     <br>
                 </section>
                 <section id="Deploy">
@@ -125,7 +138,7 @@
                     <br>
                     <h1>Deploy</h1>
                     <br>
-                    <h5 style="text-align: justify;">Textaco.</h5>
+                    <h5 style="text-align: justify;">Preparar el despliegue de una aplicación en internet requiere una cuidadosa revisión de la documentación disponible. En primer lugar, el proyecto se gestiona desde un repositorio local, donde cada commit y push a GitHub desencadena automáticamente el despliegue en Render.com. Durante este proceso, se ha realizado una importante configuración: la migración de la base de datos desde SQLite a PostgreSQL. <br><br> Además de alojar la aplicación, Render.com ofrece servicios de bases de datos, incluyendo PostgreSQL. Se ha configurado para que la aplicación apunte a esta nueva base de datos PostgreSQL. Para gestionar los datos, se ha utilizado un cliente local (Ubuntu) para conectarse a la base de datos. Actualmente, estamos en el proceso de implementar MongoDB. Se ha creado un servidor en Mongo Atlas que servirá como base de datos en la nube para la aplicación web.</h5>
                     <br>
                 </section>
                 <section id="Estado">
@@ -133,9 +146,10 @@
                     <br>
                     <h1>Estado</h1>
                     <br>
-                    <h5 style="text-align: justify;">Textaco.</h5>
+                    <h5 style="text-align: justify;">Actualmente, el proyecto sigue en línea y aún no se ha tomado la decisión de continuar trabajando en él o no. Esto implica un costo de tiempo y posiblemente un costo económico si se decide seguir adelante. Cada miembro del grupo tomará su propia decisión al respecto. A día de hoy, mayo de 2024, la página web sigue disponible para visitar. <br><br>Dado que se trata de planes gratuitos, no se espera un rendimiento óptimo en cuanto a velocidad de carga u otros aspectos técnicos. Sin embargo, a pesar de esto, la plataforma es completamente funcional. Normalmente, habrá un administrador encargado de activar usuarios y realizar el mantenimiento mínimo necesario para garantizar una buena experiencia para los usuarios.</h5>
                     <br>
-                    <br>
+                    <a href="https://apb2tal.onrender.com/" target="_blank">https://apb2tal.onrender.com/</a>
+
                     <br>
                     <br>
                     <br>
